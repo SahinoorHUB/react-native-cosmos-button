@@ -1,6 +1,6 @@
 {
   "name": "react-native-cosmos-button",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "A customizable, reusable set of button components for React Native applications. This package provides beautifully styled buttons (primary, secondary, outline, icon-based, and more) designed to speed up development and maintain consistency across apps.",
   "main": "src/index.tsx",
   "scripts": {
