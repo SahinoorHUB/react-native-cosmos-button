@@ -1,10 +1,11 @@
 {
   "name": "react-native-cosmos-button",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A customizable, reusable set of button components for React Native applications. This package provides beautifully styled buttons (primary, secondary, outline, icon-based, and more) designed to speed up development and maintain consistency across apps.",
   "main": "src/index.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm version patch"
   },
   "keywords": [
     "react",
@@ -16,8 +17,13 @@
     "IOS",
     "Android"
   ],
+  "repository": "https://github.com/SahinoorHUB/react-native-cosmos-button",
   "author": "Md Sahinoor Mondal",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SahinoorHUB/react-native-cosmos-button/issues"
+  },
+  "homepage": "https://github.com/SahinoorHUB/react-native-cosmos-button#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
@@ -29,5 +35,17 @@
   },
   "dependencies": {
     "react-native-vector-icons": "^10.0.3"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release ${version}",
+      "tagName": "v${version}"
+    },
+    "npm": {
+      "publish": true
+    },
+    "github": {
+      "release": true
+    }
   }
 }
