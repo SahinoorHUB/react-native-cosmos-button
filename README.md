@@ -2,7 +2,7 @@
 
 A customizable, reusable set of button components for React Native applications. This package provides beautifully styled buttons (primary, secondary, outline, icon-based, and more) designed to speed up development and maintain consistency across apps.
 
-![React Native Cosmos Button](https://i.ibb.co/Y7HwhPkQ/Screenshot-20250409-165237.jpg){width=300}
+![React Native Cosmos Button](https://i.ibb.co/Y7HwhPkQ/Screenshot-20250409-165237.jpg width="300")
 
 ## Installation
 
